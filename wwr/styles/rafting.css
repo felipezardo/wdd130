@@ -1,0 +1,95 @@
+:root{
+    --primary-color: #27A1CA;
+    --primary-color-transparence: rgba(39, 161, 202, 0.5);
+    --secondary-color: #E7C135;
+    --accent1-color: #FFFEFE;    
+    --accent2-color: #0E0D0D;
+    
+
+    --heading-font: Roboto, Sans-serif;
+    --paragraph-font: Merriweather, Sans-serif;   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width:100% ;
+}
+
+/* Styling for headings and paragraphs */
+h1, h2 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+p {
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+}
+
+/* Styling for the hero container */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: var(--accent1-color);
+    background-color: var(--primary-color-transparence);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Styling for the article inside the hero */
+.hero article {
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    background-color: var(--accent1-color);
+    opacity: 0.9;
+    padding: 3rem;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 1rem;
+    border-radius: 4px;
+    width: 100px;
+    height: auto;
+}
+
+
+
+nav.social a img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Page layout adjustments */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
