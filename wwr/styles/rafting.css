@@ -34,7 +34,7 @@ p {
     font-family: var(--paragraph-font);
 }
 
-/* Header Styling */
+
 header {
     margin: 1rem auto;
 	display: grid;
