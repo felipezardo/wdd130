@@ -74,6 +74,8 @@ header nav a {
     justify-content: center;
 }
 
+
+
 .hero h1 {
     position: absolute;
     top: 20%;
@@ -171,7 +173,11 @@ nav.social a img {
     height: 40px;
 }
 
-/* Contact Page - Company Info */
+
+.contact h1{
+    margin: 0 0 0 40px;
+}
+
 .contact-info {
     padding: 2rem;
     background-color: var(--secondary-color);
