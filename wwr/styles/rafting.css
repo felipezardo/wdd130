@@ -209,7 +209,13 @@ nav.social a img {
     border-radius: 8px;
 }
 
-/* Contact Page - Contact Form */
+iframe {
+    width: 100%;
+    max-width: 1000px; /* Limita o tamanho máximo */
+    margin-top: 10px;
+}
+
+
 .contact-form {
     padding: 2rem;
     background-color: var(--primary-color-transparence);
