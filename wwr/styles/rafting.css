@@ -153,7 +153,7 @@ header nav a {
     padding-top: 0.5rem;
 }
 
-/* Footer */
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -175,7 +175,7 @@ nav.social a img {
 
 
 .contact h1{
-    margin: 0 0 0 40px;
+    margin-left: 40px;
 }
 
 .contact-info {
